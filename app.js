@@ -5,7 +5,7 @@
 
 // Production Hugging Face Space URL format example:
 // const BACKEND_URL = 'https://ashwathi1901-link-guardian-backend.hf.space';
-const BACKEND_URL = 'http://localhost:7860';
+const BACKEND_URL = 'https://link-guardian-r2h7.onrender.com';
 
 document.addEventListener('DOMContentLoaded', () => {
   initAnalyzerForm();
