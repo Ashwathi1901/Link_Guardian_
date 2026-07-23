@@ -1,0 +1,17 @@
+.git
+.gitignore
+.dockerignore
+ZAP-Report.html
+*.ipynb
+__pycache__
+*.pyc
+*.pyo
+.pytest_cache
+.env
+.venv
+venv/
+env/
+.vscode/
+.idea/
+scratch/
+tests/

@@ -1,0 +1,62 @@
+{
+  "target_site": "https://python--ashna89an.replit.app",
+  "scanned_at": "Sun 28 Dec 2025, 21:12:15",
+  "zap_version": "2.17.0",
+  "summary": {
+    "High": 0,
+    "Medium": 0,
+    "Low": 4,
+    "Informational": 2,
+    "Total": 6
+  },
+  "findings": [
+    {
+      "id": "alert-0",
+      "name": "Cookie No HttpOnly Flag",
+      "risk": "Low",
+      "confidence": "Medium",
+      "count": 1,
+      "description": "A cookie has been set without the HttpOnly flag, which permits the cookie to be accessed by client-side scripts."
+    },
+    {
+      "id": "alert-1",
+      "name": "Cookie Without Secure Flag",
+      "risk": "Low",
+      "confidence": "Medium",
+      "count": 1,
+      "description": "A cookie has been set without the Secure flag, which means it may be transmitted over unencrypted HTTP connections."
+    },
+    {
+      "id": "alert-2",
+      "name": "Cookie without SameSite Attribute",
+      "risk": "Low",
+      "confidence": "Medium",
+      "count": 1,
+      "description": "A cookie has been set without a SameSite attribute, which permits cross-site requests to send the cookie."
+    },
+    {
+      "id": "alert-3",
+      "name": "X-Content-Type-Options Header Missing",
+      "risk": "Low",
+      "confidence": "Medium",
+      "count": 1,
+      "description": "The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'."
+    },
+    {
+      "id": "alert-4",
+      "name": "Re-examine Cache-control Directives",
+      "risk": "Informational",
+      "confidence": "Low",
+      "count": 1,
+      "description": "The cache-control header algorithm detected weak or missing caching directives."
+    },
+    {
+      "id": "alert-5",
+      "name": "Session Management Response Identified",
+      "risk": "Informational",
+      "confidence": "Medium",
+      "count": 1,
+      "description": "The request returned a response indicating session management features."
+    }
+  ]
+}
