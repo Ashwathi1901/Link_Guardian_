@@ -30,6 +30,7 @@ else:
         "http://127.0.0.1:8000",
         "http://127.0.0.1:5500",
         "http://127.0.0.1:3000",
+        "https://link-guardian-r2h7.onrender.com"
     ]
 
 print("CORS allowed origins:", ALLOWED_ORIGINS) #to check
