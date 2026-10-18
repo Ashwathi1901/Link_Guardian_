@@ -32,6 +32,7 @@ else:
         "http://127.0.0.1:3000",
     ]
 
+print("CORS allowed origins:", ALLOWED_ORIGINS) #to check
 # Global cache for loaded models
 ml_models: Dict[str, Any] = {}
 
